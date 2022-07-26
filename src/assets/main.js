@@ -39,7 +39,7 @@ async function fetchData(urlApi) {
               <img src="${vide.video.thumbnails[0].url}" alt="you" class="w-full">
             </div>
             <div class="mt-4 flex justify-between">
-                <h3 class="text-sm text-gray-700">
+                <h3 class="text-sm text-white">
                      <span aria-hidden="true" class="absolute inset-0"></span>
                      ${vide.video.title}
                 </h3>
