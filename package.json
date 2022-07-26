@@ -1,0 +1,23 @@
+{
+  "name": "async-landing",
+  "version": "1.0.0",
+  "description": "a practical project for async course",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javyer12/async-landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javyer12/async-landing/issues"
+  },
+  "homepage": "https://github.com/javyer12/async-landing#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
