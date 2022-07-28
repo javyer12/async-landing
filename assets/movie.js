@@ -1,5 +1,5 @@
-// import {movie} from "../movies.json";
 let htmlField = null || document.getElementById("movieCard");
+
 
 const movie = [
   {
@@ -125,8 +125,8 @@ const showMovie = () => {
   let movieCard = `
         ${movie.map(
           (card) => `
-        <div class="col">
-        <div class="card">
+        <div class="col mt-3">
+        <div class="card rounded-3">
           <img src=${card.image} class="card-img-top class="img-fluid" " alt=${card.title}>
           <div class="card-body">
           <strong><h1 class="card-title">${card.title}</h1></strong>
@@ -172,7 +172,6 @@ const showMovie = () => {
         `
         )}
     `;
-  console.log(movieCard);
   htmlField.innerHTML = movieCard;
 };
 
