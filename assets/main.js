@@ -40,22 +40,25 @@ async function fetchData(urlApi) {
               <img src="${vide.video.thumbnails[0].url}" alt="you" class="w-full">
             </div>
             <div class="mt-4 flex justify-between">
-                <h3 class="text-sm text-white">
-                     <span aria-hidden="true" class="absolute inset-0"></span>
-                     ${vide.video.title}
-                </h3>
+              <h3 class="text-sm text-white">
+              <span aria-hidden="true" class="absolute inset-0"></span>
+                ${vide.video.title}
+              </h3>
             </div> 
-         </div>
-    `
+          </div>
+             `
       )
       .slice(0, 8)
       .join("")} `;
     content.innerHTML = view;
   } catch (err) {
     console.log(err);
-    alert("we're sorry, we have technical issues");
+    alert("we're sorry, we have technical issues, reload the page please");
   }
 })();
 
 //install github-pages
 //npm install gh-pages --save-dev
+
+  /* <iframe width="560" height="315" src="https://www.youtube.com/embed/GSIkghMhFF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */
+
